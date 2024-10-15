@@ -10,7 +10,9 @@ Key Components
 4.	Quantization: We leverage the bitsandbytes library to reduce GPU memory usage by loading the LLM in 4-bit quantized mode.
 
 Setup and Installation
+
 Ensure you have the following libraries installed:
+
 •	torch: For loading and working with deep learning models.
 •	transformers: For loading pre-trained Hugging Face models.
 •	sentence-transformers: For embedding generation.
